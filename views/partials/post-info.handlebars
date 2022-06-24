@@ -6,6 +6,6 @@
   <div class="card-body">
     {{vote_count}} {{format_plural "point" vote_count}} by {{user.username}} on {{format_date created_at}}
     |
-    <a href="/post/{{id}}" class="link">{{comments.length}} {{format_plural "comment" comments.length}}</a>
+    <a href="/post/{{id}}" class="edit-link">{{comments.length}} {{format_plural "comment" comments.length}}</a>
   </div>
 </article>
